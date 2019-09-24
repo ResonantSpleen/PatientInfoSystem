@@ -1,0 +1,26 @@
+﻿.table-style-1 table {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .table-style-1 td, .table-style-1 th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    .table-style-1 tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    .table-style-1 tr:hover {
+        background-color: #ddd;
+    }
+
+    .table-style-1 th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4B99AD;
+        color: white;
+    }

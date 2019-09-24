@@ -1,0 +1,120 @@
+﻿@model  Patient
+
+    <form asp-action="Index" method="post" role="form">
+
+        <ul class="form-style-1">
+            <li>
+                <label>Full Name <span class="required">*</span></label>
+                <input type="text" name="FirstName" class="field-divided" placeholder="First" />
+                <input type="text" name="LastName" class="field-divided" placeholder="Last" />
+            </li>
+            <li>
+                <label>Gender</label>
+                <select name="Gender" class="field-select">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                </select>
+            </li>
+            <li>
+                <label>Date Of Birth <span class="required">*</span></label>
+                <input type="date" name="DateOfBirth" />
+            </li>
+            <li>
+                <label>Phone Number <span class="required">*</span></label>
+                <input type="text" name="PhoneNumber" class="field-long" placeholder="xxxxxxxxxx" />
+            </li>
+            <li>
+                <label>Email <span class="required">*</span></label>
+                <input type="text" name="Email" class="field-long" />
+            </li>
+            <li>
+                <label>Address</label>
+                <input type="text" name="StreetAddress" class="field-long" placeholder="Street Address" />
+            </li>
+            <li>
+                <input type="text" name="City" class="field-divided2" placeholder="City" />
+                <input type="text" name="State" class="field-divided2" placeholder="State" />
+                <input type="text" name="Zipcode" class="field-divided2" placeholder="Zipcode" />
+            </li>
+            <li>
+                <label>Comments</label>
+                <textarea name="Comments" class="field-long field-textarea"></textarea>
+            </li>
+            <li>
+                <center><input type="submit" value="Save" /></center>
+            </li>
+        </ul>
+
+        @*<div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="FirstName">First Name:</label>
+                <input type="text" class="form-control" name="FirstName" />
+            </div>
+            <div class="form-group col-md-6">
+                <label for="LastName">Last Name:</label>
+                <input type="text" class="form-control" name="LastName" />
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            <div><label for="Gender" class="col-md-2 control-label">Gender:</label></div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="GenderOptions" id="Gender1" value="Male" />
+                <label class="form-check-label" for="Gender1">Male</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="GenderOptions" id="Gender2" value="Female" />
+                <label class="form-check-label" for="Gender2">Female</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" name="GenderOptions" id="Gender3" value="Other" />
+                <label class="form-check-label" for="Gender3">Other</label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="DateOfBirth" class="col-md-2 control-label">Date of Birth:</label>
+            <input type="date" name="DateOfBirth" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="PhoneNumber" class="col-md-2 control-label">Phone Number:</label>
+            <input type="text" class="form-control" name="PhoneNumber" />
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="Email" class="col-md-2 control-label">Email:</label>
+            <input type="text" class="form-control" name="Email" />
+        </div>
+
+        <div class="form-group col-md-12">
+            <label for="StreetAddress" class="col-md-2 control-label">Street Address:</label>
+            <input type="text" class="form-control" name="StreetAddress" />
+        </div>
+
+        <div class="form-row">
+            <div class="form-group col-md-6">
+                <label for="City" class="col-md-2 control-label">City:</label>
+                <input type="text" class="form-control" name="City" />
+            </div>
+
+            <div class="form-group col-md-4">
+                <label for="State" class="col-md-2 control-label">State:</label>
+                <input type="text" class="form-control" name="State" />
+            </div>
+
+            <div class="form-group col-md-2">
+                <label for="Zipcode" class="col-md-2 control-label">Zipcode:</label>
+                <input type="text" class="form-control" name="Zipcode" />
+            </div>
+        </div>
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-5">
+                <input type="submit" class="btn btn-primary" value="Send feedback" />
+            </div>
+        </div>*@
+    </form>

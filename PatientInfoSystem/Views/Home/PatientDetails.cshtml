@@ -1,0 +1,15 @@
+﻿@model  Patient
+
+<div class="display-style-1"><h2>@Model.FullName</h2></div>
+
+<div class="display-style-1"><label>Gender:</label>@Model.Gender</div>
+<div class="display-style-1"><span><label>Date of Birth:</label>@Model.DateOfBirth</span><span><label>Age:</label>@Model.Age</span></div>
+<div class="display-style-1"><label>Phone Number:</label>@Model.PhoneNumber</div>
+<div class="display-style-1"><label>Email:</label>@Model.Email</div>
+<div class="display-style-1"><label>Address:</label>@Model.StreetAddress <br>@Model.City, @Model.State @Model.Zipcode</div>
+<div class="display-style-1"><label>Comments:</label>@Model.Comments</div>
+
+<div>
+    @Model.Visits
+    @Model.Studies
+</div>

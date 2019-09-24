@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alessandra.Gallasteg\\source\\repos\\PatientInfoSystem\\PatientInfoSystem\\PatientInfoSystem.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alessandra.Gallasteg\\source\\repos\\PatientInfoSystem\\PatientInfoSystem\\PatientInfoSystem.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alessandra.Gallasteg\\source\\repos\\PatientInfoSystem\\PatientInfoSystem\\PatientInfoSystem.csproj",
+        "projectName": "PatientInfoSystem",
+        "projectPath": "C:\\Users\\Alessandra.Gallasteg\\source\\repos\\PatientInfoSystem\\PatientInfoSystem\\PatientInfoSystem.csproj",
+        "packagesPath": "C:\\Users\\Alessandra.Gallasteg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alessandra.Gallasteg\\source\\repos\\PatientInfoSystem\\PatientInfoSystem\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Alessandra.Gallasteg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://pkgs.dev.azure.com/benefithubinternational/_packaging/NugetRepo/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/benefithubinternational/_packaging/PortalEntities/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.9, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

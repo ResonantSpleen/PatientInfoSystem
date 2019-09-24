@@ -1,0 +1,26 @@
+﻿.display-style-1 body {
+    padding-top: 100px;
+}
+
+.display-style-1 body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.display-style-1 {
+    margin: 10px auto;
+    padding: 5px 12px 5px 20px;
+    font: 15px, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.display-style-1 label {
+    margin: 0 0 3px 0;
+    padding: 0px;
+    display: block;
+    font-weight: bold;
+}
+
+.display-style-1 span {
+    display: inline-block;
+    padding: 0px 40px 0px 0px;
+}
